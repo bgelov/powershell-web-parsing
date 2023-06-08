@@ -1,0 +1,1 @@
+﻿gc "D:\TheLooch\airlines\code.txt" | % { New-Item -ItemType Directory -Path "D:\TheLooch\airlines\plane\" -Name $_ }
